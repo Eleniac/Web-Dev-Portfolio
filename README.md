@@ -6,7 +6,9 @@ This project was created to develop a user friendly way to present an online web
 
 ## Installation
 `` 
+
 https://github.com/Eleniac/Web-Dev-Portfolio.git
+
 
 ``
 
@@ -15,7 +17,7 @@ https://github.com/Eleniac/Web-Dev-Portfolio.git
 
 
 ## Credits
-
+[University-of-Minnesota-Boot-Camp] (https://umn.bootcampcontent.com/University-of-Minnesota-Boot-Camp/UofM-VIRT-FSF-PT-06-2022-U-LOLC)
 
 ## License
 MIT License
