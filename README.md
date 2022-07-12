@@ -18,6 +18,16 @@ https://github.com/Eleniac/Web-Dev-Portfolio.git
 
 ## Credits
 [University-of-Minnesota-Boot-Camp] (https://umn.bootcampcontent.com/University-of-Minnesota-Boot-Camp/UofM-VIRT-FSF-PT-06-2022-U-LOLC)
+[Unsplash] (https://https://unsplash.com/)
+Photos from Unsplash:
+Nathalia Segato
+Hassan Pasha
+Pawel Czerwinski
+Jr Korpa
+Markus Spiske
+Annie Spratt
+
+
 
 ## License
 MIT License
