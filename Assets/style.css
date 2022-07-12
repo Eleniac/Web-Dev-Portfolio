@@ -1,3 +1,13 @@
 * {
     background-color:whitesmoke;
 }
+
+/* page colors*/
+:root{
+    --Mdcolor: grey;
+    --dark: black;
+    --light:rgb(121, 121, 188); 
+}
+.header h1 li {
+
+}
