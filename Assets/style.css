@@ -9,36 +9,66 @@
     --light:rgb(121, 121, 188); 
 }
 
-.header h1 li {
-    width: 300px;
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:(var--dark);
+    background:(var--mdcolor);
+    line-height:1.5;
+}
+
+.header {
+    width: 500px;
     height: 100px;
     padding: 50px;
     border: 1px solid black;
 }
 
-.nav .links {
-    width: 300px;
-    height: 100px;
-    padding: 50px;
-    border: 1px solid black;
+.hero {
+    display: flex;
 }
 
-img {
-    width:300px;
-    height: 100px;
-    padding: 50px;
-    border: 1px solid black;
+.workinfo {
+    flex-direction: row;
+}
+
+.nav {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: 1;
+}
+
+.bio {
+    justify-content: 1;
+    flex-wrap: 1;
+}
+
+.biopic{
+    margin: 0;
+    padding: 1;
+}
+
+.p1 .p2 .p3 .games .puzzles .designs {
+    margin:auto;
+    padding-block: 1;
+}
+
+.contact li {
+    align-items: center;
 }
 
 @media screen and (max-width:920px) {
-    
+    nav body{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media screen and (max-width:758px) {
-
+    nav body{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media screen and (max-width:560px) {
-
-    
-}
+    nav body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
