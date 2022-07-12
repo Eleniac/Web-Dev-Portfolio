@@ -1,13 +1,44 @@
 * {
-    background-color:whitesmoke;
+    box-sizing:border-box;
 }
 
 /* page colors*/
 :root{
-    --Mdcolor: grey;
+    --mdcolor: grey;
     --dark: black;
     --light:rgb(121, 121, 188); 
 }
-.header h1 li {
 
+.header h1 li {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+.nav .links {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+img {
+    width:300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:920px) {
+    
+}
+
+@media screen and (max-width:758px) {
+
+}
+
+@media screen and (max-width:560px) {
+
+    
 }
