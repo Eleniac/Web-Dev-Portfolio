@@ -19,21 +19,27 @@ body {
 }
 
 .header {
-    border: 1px solid black;
-    flex-wrap:flex;
+    padding: 20px;
+    font-family:(--dark);
 }
 
+.header h1 {
+    display:inline-block;
+    font-size: 48px;
+}
 .hero {
     display: flex;
 }
 
+.aside{
+    margin-right:auto;
+}
 img {
     flex-direction: row;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 150px;
-    display: block;
     margin: center;
     transform:rotate(65deg);
 }
