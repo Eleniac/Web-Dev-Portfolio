@@ -11,7 +11,7 @@
 
 body {
     margin: 0;
-    padding: 20px 0px 20px 0;
+    padding: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:(var--dark);
     background:(var--mdcolor);
@@ -21,10 +21,21 @@ body {
     justify-content: space-between;
 }
 
+nav {
+    text-align: right;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color: (var--mdcolor);
+}
+
+ul {
+    list-style: none;
+}
+
 .header {
-    padding: 1px;
-    margin: 1px;
-    font-family:(--dark);
+    padding: 20px;
+    margin: 0px;
+    font-family:(var--dark);
     line-height: 1;
 }
 
@@ -32,8 +43,25 @@ body {
     display:inline-block;
     font-size: 48px;
 }
+
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+.header section ul li{
+    display:inline-block;
+    margin-left:25px;
+    list-style-type: none;
+}
+
 .hero {
-    display: flex;
+    height: 880px;
+    width: 100%;
+    margin-bottom:25px;
+    background-size:cover;
+    background-position:center;
 }
 
 .aside{
@@ -50,26 +78,13 @@ img {
     transform:rotate(65deg);
 }
 
-.nav {
-    display:flex;
-    flex-wrap: wrap;
-    align-items: 1;
-    margin-right:auto;
-}
-
-.bio {
-    justify-content: 1;
-    flex-wrap: 1;
-}
-
-.biopic{
-    margin: 0;
-    padding: 1;
-}
-
 .contact li {
     align-items: center;
+    margin:0;
+    padding:0;
 }
+
+
 
 @media screen and (max-width:920px) {
     nav body {
