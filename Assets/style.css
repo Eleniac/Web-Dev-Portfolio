@@ -16,8 +16,6 @@ body {
     color: var(--dark);
     background:var(--mdcolor);
     line-height:2;
-    display:flex;
-    flex-direction:row;
     justify-content: space-between;
 }
 
@@ -26,6 +24,25 @@ nav {
     flex-wrap:wrap;
     justify-content: space-between;
     background-color: var(--mdcolor);
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 1;
+    padding: 1;
+    color: var(--dark);
+}
+
+aside {
+    list-style: none;
+}
+
+p {
+   float:center; 
+   text-indent: 30%;
+   flex-wrap:wrap;
+}
+
+.section p {
+    float:right;
 }
 
 .header {
@@ -41,12 +58,18 @@ nav {
     font-size: 50px;
     flex:row;
 }
+.header section ul li {
+    font-style: bold;
+    font-size: 25px;
+    list-style: none;
+    line-height:2;
+}
 
 img{
     flex-direction: row;
-    border: 1px solid rgb(248, 246, 246);
-    border-radius: 15px;
-    padding: 0px;
+    border: .5px solid var(--mdcolor);
+    border-radius: 10px;
+    padding: 10px;
     width: 420px;
     margin: 0;
 }
