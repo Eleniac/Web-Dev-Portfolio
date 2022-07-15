@@ -33,19 +33,13 @@
 }
 
 .hero {
-    background-image:url("https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/sumner-mahaffey-7Y0NshQLohk-unsplash.jpg")100%;
+    background-image:url("https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/sumner-mahaffey-7Y0NshQLohk-unsplash.jpg")100%;
     background-size:cover;
-    background-position:center ;
+    background-position:center;
+    display:flex;
     justify-content: flex-end;
-}
-body {
-    margin: 0;
-    padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--dark);
-    background:var(--mdcolor);
-    line-height:2;
-    justify-content: space-between;
+    padding:2% 6%;
+    align-items: flex-end;
 }
 
 nav {
@@ -55,8 +49,18 @@ nav {
     background-color: var(--antique);
     line-height: 1.5;
     font-size: 20px;
-    margin: 1;
-    padding: 1;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--dark);
+    background:var(--mdcolor);
+    line-height:2;
+    justify-content: space-between;
 }
 
 h1 {
@@ -112,26 +116,20 @@ img {
     box-shadow: var(--dark) 5cm;
     border-radius: 25px;
 }
+
 .large-work {
     width:200%;
     height: 600%;
     justify-content: flex-start;
 }
 
-.column {
-    flex-direction: row;
-    width:20%;
-    padding: 2px; 
-    text-align:row;
-}
-
 .contact ul li {
-    flex-wrap:wrap;
-    justify-content: space-between;
-    list-style: none;
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  list-style: none;
 }
 
 
