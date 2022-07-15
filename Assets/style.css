@@ -95,16 +95,22 @@ img {
 }
 
 @media screen and (max-width:920px) {
-    nav body {
+    nav body img {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        flex:wrap;
 }
 
 @media screen and (max-width:758px) {
-    nav body {
+    nav body img {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+        flex:wrap;
+        flex:auto;
+    }
+
 
 @media screen and (max-width:560px) {
     nav body {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        flex:wrap;
+        flex:auto;
 }
