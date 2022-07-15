@@ -1,5 +1,6 @@
 * {
     box-sizing:border-box;
+    cursor:grab;
 }
 
 /* page colors*/
@@ -31,6 +32,16 @@ nav {
     padding: 1;
 }
 
+/*visited links*/
+a:hover .header {
+    color:var(--dark);
+}
+
+/*visted link*/
+a:hover .header {
+    color:var(--light);
+}
+
 h1 {
     text-align: center;
 }
@@ -57,6 +68,7 @@ p {
 
 .section p {
     float:right;
+    justify-content: center;
 }
 
 .header {
@@ -86,32 +98,25 @@ img {
     border: .5px solid var(--mdcolor);
     border-radius: 10px;
     padding: 10px;
-    width: 300px;
+    width: 250px;
+    height: 250px;
     margin: 0;
     flex-wrap: wrap;
     display:block;
+    box-shadow: var(--dark) 5cm;
+    border-radius: 25px;
 }
-/* work section image specifications*/
-#blue #grey #torquise #puzzles #games #design {
-    flex-direction: row;
-    border: .5px solid var(--mdcolor);
-    border-radius: 10px;
-    padding: 10px;
-    width: 250px;
-    margin: 0;
-    position: left;
-}
+
 .column {
     float: left;
     width:20%;
     padding: 2px; 
     text-align:row;
 }
-.row::after {
-    content:"column";
-    display:table;
-}
 
+.contact {
+
+}
 @media screen and (max-width:920px) {
     nav body img {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
