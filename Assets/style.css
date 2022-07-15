@@ -7,6 +7,7 @@
     --mdcolor: grey;
     --dark: black;
     --light:rgb(121, 121, 188); 
+    --antique:antiquewhite;
 }
 
 body {
@@ -23,12 +24,11 @@ nav {
     text-align: right;
     flex-wrap:wrap;
     justify-content: space-between;
-    background-color: antiquewhite;
+    background-color: var(--antique);
     line-height: 1.5;
     font-size: 20px;
     margin: 1;
     padding: 1;
-    color: var(--dark);
 }
 
 h1 {
@@ -39,6 +39,7 @@ aside ul li {
     flex:column;
     line-height: 1.5;
     position: left;
+    color:var(--antique);
 }
 
 .bio {
@@ -63,7 +64,7 @@ p {
     margin: 0px;
     font-family:var(--dark);
     line-height: .5;
-    background-color:antiquewhite;
+    background-color:var(--antique);
 }
 
 .header h1 {
