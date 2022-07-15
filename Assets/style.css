@@ -55,20 +55,21 @@ aside ul li {
 
 .bio {
     display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
 }
 
-p {
-   text-indent: 5%;
-   flex-wrap:wrap;
+#roses {
+    height: 400px;
+    width:800px;
+    margin:0px;
+    padding:0px;
+    align-items: center;
+    justify-content: center;
 }
-
 #bio-text {
   float:right
-}
-
-.section p {
-    float:right;
-    justify-content: center;
 }
 
 .header {
@@ -114,9 +115,6 @@ img {
     text-align:row;
 }
 
-.contact {
-
-}
 @media screen and (max-width:920px) {
     nav body img {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
