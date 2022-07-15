@@ -37,7 +37,7 @@ h1 {
 aside ul li {
     list-style: none;
     flex:column;
-    line-height: 3;
+    line-height: 1.5;
     position: left;
 }
 
@@ -46,7 +46,7 @@ aside ul li {
 }
 
 p {
-   text-indent: 20%;
+   text-indent: 5%;
    flex-wrap:wrap;
 }
 
@@ -95,12 +95,18 @@ img {
     padding: 10px;
     width: 250px;
     margin: 0;
+    position: left;
 }
 .column {
     float: left;
     width:20%;
     padding: 2px; 
     text-align:row;
+    align image-orientation: left;
+}
+.row::after {
+    content:"column";
+    display:table;
 }
 
 @media screen and (max-width:920px) {
