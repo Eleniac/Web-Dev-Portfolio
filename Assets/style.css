@@ -31,14 +31,27 @@ nav {
     color: var(--dark);
 }
 
-aside {
+h1 {
+    text-align: center;
+}
+aside ul li {
     list-style: none;
+    flex:column;
+    line-height: 3;
+    position: left;
+}
+
+.bio {
+    display:flex;
 }
 
 p {
-   float:center; 
    text-indent: 30%;
    flex-wrap:wrap;
+}
+
+#bio-text {
+  float:right
 }
 
 .section p {
@@ -49,7 +62,7 @@ p {
     padding: 20px;
     margin: 0px;
     font-family:var(--dark);
-    line-height: 1.5;
+    line-height: .5;
     background-color:antiquewhite;
 }
 
@@ -65,7 +78,7 @@ p {
     line-height:2;
 }
 
-img{
+img {
     flex-direction: row;
     border: .5px solid var(--mdcolor);
     border-radius: 10px;
@@ -93,5 +106,5 @@ img{
 
 @media screen and (max-width:560px) {
     nav body {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
