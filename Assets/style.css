@@ -33,10 +33,10 @@
 }
 
 .hero {
-    background-image: ;
-    background-size: ;
-    background-position: ;
-    justify-content: first end;
+    background-image:url("https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/sumner-mahaffey-7Y0NshQLohk-unsplash.jpg")100%;
+    background-size:cover;
+    background-position:center ;
+    justify-content: flex-end;
 }
 body {
     margin: 0;
