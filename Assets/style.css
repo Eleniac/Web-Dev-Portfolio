@@ -12,7 +12,7 @@
 }
 
 .header {
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
     font-family:var(--dark);
     line-height: .5;
@@ -20,7 +20,7 @@
 }
 
 .header h1 {
-    display:block;
+    display:in-block;
     font-size: 50px;
     flex:row;
 }
@@ -33,7 +33,7 @@
 }
 
 .hero {
-    background-image:url("https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/sumner-mahaffey-7Y0NshQLohk-unsplash.jpg")100%;
+    background-image:url("https://unsplash.com/photos/tg_bV3BkNSA")100%;
     background-size:cover;
     background-position:center;
     display:flex;
