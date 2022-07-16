@@ -81,8 +81,8 @@ a {
 
 /* page standards */
 body {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background:rgb(200, 198, 198);
     line-height:2;
@@ -122,16 +122,16 @@ ul li {
     background-size:cover;
     background-position:center;
     padding: 10px;
-    width: 700px;
-    height: 500px;
+    width: 900px;
+    height: 550px;
     border-radius: 25px;
     position:relative;
+    order:1;
 }
 
 .large-work h3 {
     color:var(--antique);
     text-align:center;
-    align-items:center;
 }
 
 #large-des {
@@ -146,6 +146,8 @@ ul li {
     width:400px;
     background-size:cover;
     border-radius: 25px;
+    margin-top:600px;
+    order:2;
 }
 
 .small-box1 h3 {
@@ -166,6 +168,7 @@ ul li {
     width:400px;
     background-size:cover;
     border-radius: 25px;
+    order:2;
 }
 
 .small-box2 h3 {
@@ -186,6 +189,7 @@ ul li {
     width:400px;
     background-size:cover;
     border-radius: 25px;
+    order:3;
 }
 
 .small-box3 h3 {
@@ -206,6 +210,7 @@ ul li {
     width:400px;
     background-size:cover;
     border-radius: 25px;
+    order:3;
 }
 
 .small-box4 h3 {
