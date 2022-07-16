@@ -11,32 +11,19 @@
     --green:rgb(5, 41,5);
 }
 
-/* header banner */
-.header {      
-    justify-content:space-around;
-    font-family:var(--dark);
-    line-height: 1.5;
-    background-color:var(--green);
-}
-
 /* header text-Len's Profile */
 .header h1 {
     font-size: 50px;
-    flex:row;
     color:var(--antique);
-}
-
-.div {
-    display:flex;
-}
-
-/* header links */
-.header .div ul li {
-    font-style: bold;
-    font-size: 25px;
-    list-style: none;
-    line-height:2;
-    display:flex;
+    text-align:left;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color:var(--green);
+    line-height: 1.5;
+    font-size: 40px;
+    color:var(--antique);
+    margin: 0;
+    padding: 0;
 }
 
 /* waves hero image */
@@ -71,6 +58,7 @@ h2 {
     border: 1px,var(--dark);
     padding: 50px;
     margin: 20px;
+    border-radius: 25px;
 }
 
 /* links at the top of the page */
@@ -96,7 +84,6 @@ body {
     margin: 0;
     padding: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--dark);
     background:rgb(200, 198, 198);
     line-height:2;
 }
@@ -111,12 +98,13 @@ ul li {
     display:flex;
     flex-direction: row;
     justify-content:space-around;
+    color:var(--dark);
 }
 
 /*profile photo style*/
 #pic {
     flex-direction: row;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 10px;
     width: 250px;
     height: 350px;
@@ -125,23 +113,17 @@ ul li {
     box-shadow: var(--dark) 5cm;
 }
 
-.work  {
+.work {
     display:flex;
     flex-direction: row;
-    justify-content:space-around;
 }
 
-h3 {
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    display:flex;
-    flex-direction: row;
-    justify-content:flex-end;
-}
-
-/*large image photo style*/
-#sky {
+.large-work {
+    background-image:url("../Assets/Images/daniel-pascoa-pCvCDub8ieI-unsplash.jpg");
+    height: 600px;
+    width:400px;
+    background-size:cover;
+    background-position:center;
     flex-direction: row;
     border-radius: 5px;
     padding: 10px;
@@ -149,55 +131,23 @@ h3 {
     height: 500px;
     margin: 0;
     flex-wrap: wrap;
-    box-shadow: var(--dark) 5cm;
+    border-radius: 25px;
 }
 
-/*small box syle*/
-#cup {
-    flex-direction: column;
-    border-radius: 5px;
-    padding: 10px;
-    width: 250px;
-    height: 250px;
-    margin: 0;
-    flex-wrap: wrap;
-    box-shadow: var(--dark) 5cm;
+.large-work h3 {
+    color:var(--antique);
+    text-align:center;
+    align-items:center;
 }
 
-/*small box syle*/
-#math {
-    flex-direction: column;
-    border-radius: 5px;
-    padding: 10px;
-    width: 250px;
-    height: 250px;
-    margin: 0;
-    flex-wrap: wrap;
-    box-shadow: var(--dark) 5cm;
+#large-des {
+    color:var(--antique);
+    align-items:center;
+    text-align: center;
 }
 
-/*small box syle*/
-#puzzle {
-    flex-direction: row;
-    border-radius: 5px;
-    padding: 10px;
-    width: 250px;
-    height: 250px;
-    margin: 0;
-    flex-wrap: wrap;
-    box-shadow: var(--dark) 5cm;
-}
+.small-box {
 
-/*small box syle*/
-#games {
-    flex-direction: row;
-    border-radius: 5px;
-    padding: 10px;
-    width: 250px;
-    height: 250px;
-    margin: 0;
-    flex-wrap: wrap;
-    box-shadow: var(--dark) 5cm;
 }
 
 .contact {
@@ -206,14 +156,6 @@ h3 {
     justify-content:space-around;
 }
 
-.contact ul li {
-  flex-wrap: wrap;
-  height: 100%;
-  list-style: none;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-}
 @media screen and (max-width:920px) {
 }
 @media screen and (max-width:758px) {
