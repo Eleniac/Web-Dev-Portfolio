@@ -123,7 +123,6 @@ ul li {
     background-size:cover;
     background-position:center;
     flex-direction: row;
-    border-radius: 5px;
     padding: 10px;
     width: 700px;
     height: 500px;
@@ -153,7 +152,6 @@ ul li {
     background-size:cover;
     background-position:center;
     flex-direction: row;
-    border-radius: 5px;
     padding: 10px;
     margin: 0;
     flex-wrap: wrap;
@@ -174,12 +172,11 @@ ul li {
 
 .small-box2 {
     background-image:url("../Assets/Images/IMG_9136.jpeg");
-    height: 400px;
-    width:400px;
+    height: 10000px;
+    width:1800px;
     background-size:cover;
     background-position:center;
     flex-direction: row;
-    border-radius: 5px;
     padding: 10px;
     margin: 0;
     flex-wrap: wrap;
@@ -205,7 +202,6 @@ ul li {
     background-size:cover;
     background-position:center;
     flex-direction: row;
-    border-radius: 5px;
     padding: 10px;
     margin: 0;
     flex-wrap: wrap;
@@ -229,9 +225,8 @@ ul li {
     height: 400px;
     width:400px;
     background-size:cover;
-    background-position:center;
+    background-position:inherit;
     flex-direction: row;
-    border-radius: 5px;
     padding: 10px;
     margin: 0;
     flex-wrap: wrap;
