@@ -7,23 +7,23 @@
 :root {
     --mdcolor: grey;
     --dark: black;
-    --light:rgb(121, 121, 188); 
     --antique:antiquewhite;
     --green:rgb(5, 41,5);
 }
 
 .header {
-    padding: 0px;
+    padding: 0px 0px 30px 0px;
     margin: 0px;
     font-family:var(--dark);
-    line-height: .5;
+    line-height: 1.5;
     background-color:var(--green);
 }
 
 .header h1 {
-    display:in-block;
+    display:flex;
     font-size: 50px;
     flex:row;
+    color:var(--antique);
 }
 .header section ul li {
     font-style: bold;
@@ -35,20 +35,26 @@
 
 .hero-banner {
     background-image:url("../Assets/Images/tim-toomey-S1R_H_ybMYg-unsplash.jpg");
+    height: 600px;
     background-size:cover;
     background-position:center;
     display:flex;
     justify-content: flex-end;
-    padding:2% 3%;
+    padding:30px,50px;
+    margin: 0;
     align-items: flex-end;
 }
 
 .hero-banner h2 {
     color:var(--antique);
-    width:400px;
-    height:150px;
+    width:300px;
+    height:100px;
     background-color: black;
+    margin: 20px;
+    padding: 20px;
+    
 }
+
 
 nav {
     text-align: right;
@@ -122,7 +128,60 @@ h3 {
     justify-content:space-around;
 }
 /*profile photo style*/
-img {
+#pic {
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    flex-wrap: wrap;
+    box-shadow: var(--dark) 5cm;
+}
+#sky {
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 10px;
+    width: 700px;
+    height: 500px;
+    margin: 0;
+    flex-wrap: wrap;
+    box-shadow: var(--dark) 5cm;
+}
+
+#cup {
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    flex-wrap: wrap;
+    box-shadow: var(--dark) 5cm;
+}
+
+#math {
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    flex-wrap: wrap;
+    box-shadow: var(--dark) 5cm;
+}
+#puzzle {
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    flex-wrap: wrap;
+    box-shadow: var(--dark) 5cm;
+}
+
+#games {
     flex-direction: row;
     border-radius: 5px;
     padding: 10px;
