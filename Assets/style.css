@@ -59,6 +59,7 @@ h2 {
     padding: 50px;
     margin: 20px;
     border-radius: 25px;
+    font-size:30px;
 }
 
 /* links at the top of the page */
@@ -128,6 +129,7 @@ ul li {
     border-radius: 25px;
     position:relative;
     order:1;
+    flex-direction:row;
 }
 
 .large-work h3 {
@@ -199,7 +201,6 @@ ul li {
     width:400px;
     background-size:cover;
     border-radius: 25px;
-    position:relative;
     order:3;
 }
 
@@ -236,17 +237,44 @@ ul li {
     text-align: center;
 }
 
-.contact ul a {
+.contact ul {
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     list-style: none;
     font-size: 40px;
 }
+.contact a {
+    color:var(--dark);
+}
+
 
 @media screen and (max-width:920px) {
+    .header nav {
+        justify-content: center;
+        text-align:center;
+    }
+    .about {
+        justify-content:center;
+        text-align:center;
+    }
+    .contact {
+        justify-content:center;
+        text-align:center;
+    }
+    .large-work {
+        flex-wrap:wrap;
+        flex-direction:row;
+        display:inline;
+    }
 }
 @media screen and (max-width:758px) {
-}
+    .about{
+        max-width: fit-content;
+    }
+} 
 @media screen and (max-width:560px) {
+    .about{
+        max-width: fit-content;
+    }
 }
