@@ -120,8 +120,6 @@ ul li {
 
 .large-work {
     background-image:url("../Assets/Images/daniel-pascoa-pCvCDub8ieI-unsplash.jpg");
-    height: 600px;
-    width:400px;
     background-size:cover;
     background-position:center;
     flex-direction: row;
@@ -132,6 +130,8 @@ ul li {
     margin: 0;
     flex-wrap: wrap;
     border-radius: 25px;
+    align-items: center;
+    justify-content:center;
 }
 
 .large-work h3 {
@@ -146,9 +146,112 @@ ul li {
     text-align: center;
 }
 
-.small-box {
-
+.small-box1 {
+    background-image:url("../Assets/Images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg");
+    height: 300px;
+    width:200px;
+    background-size:cover;
+    background-position:center;
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+    border-radius: 25px;
 }
+
+.small-box1 h3 {
+    color:var(--mdcolor);
+    text-align:center;
+    align-items:center;
+}
+
+#java {
+    color:var(--mdcolor);
+    align-items:center;
+    text-align: center;
+}
+
+.small-box2 {
+    background-image:url("../Assets/Images/IMG_9136.jpeg");
+    height: 400px;
+    width:400px;
+    background-size:cover;
+    background-position:center;
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+
+.small-box2 h3 {
+    color:var(--mdcolor);
+    text-align:center;
+    align-items:center;
+}
+
+#react {
+    color:var(--mdcolor);
+    align-items:center;
+    text-align: center;
+}
+
+.small-box3 {
+    background-image:url("../Assets/Images/hassan-pasha-7SjEuEF06Zw-unsplash.jpg");
+    height: 400px;
+    width:400px;
+    background-size:cover;
+    background-position:center;
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+
+.small-box3 h3 {
+    color:var(--mdcolor);
+    text-align:center;
+    align-items:center;
+}
+
+#Mern {
+    color:var(--mdcolor);
+    align-items:center;
+    text-align: center;
+}
+
+.small-box4 {
+    background-image:url("../Assets/Images/mel-poole-eo5Hrzyb4D0-unsplash.jpg");
+    height: 400px;
+    width:400px;
+    background-size:cover;
+    background-position:center;
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+
+.small-box4 h3 {
+    color:var(--mdcolor);
+    text-align:center;
+    align-items:center;
+}
+
+#node {
+    color:var(--mdcolor);
+    align-items:center;
+    text-align: center;
+}
+
+
+
 
 .contact {
     display:flex;
