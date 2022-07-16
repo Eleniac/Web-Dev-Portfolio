@@ -89,12 +89,7 @@ body {
     line-height:2;
 }
 
-ul li {
-    list-style: none;
-    flex-direction: row;
-    position: left;
-}
-
+/* moves text to the right of profile picture*/
 .about  {
     display:flex;
     flex-direction: row;
@@ -114,11 +109,13 @@ ul li {
     box-shadow: var(--dark) 5cm;
 }
 
+/* sets images slightly right and keeps header to the side*/
 .work {
     display:flex;
     flex-direction: row;
 }
 
+/* sizing and image of large image */
 .large-work {
     background-image:url("../Assets/Images/daniel-pascoa-pCvCDub8ieI-unsplash.jpg");
     background-size:cover;
@@ -132,26 +129,20 @@ ul li {
     flex-direction:row;
 }
 
+/* main text in large image */
 .large-work h3 {
     color:var(--antique);
     text-align:center;
 }
 
+/* subtitle text in large image */
 #large-des {
     color:var(--antique);
     align-items:center;
     text-align: center;
 }
 
-.section {
-    display:flex;
-    flex-direction: row;
-}
-#examples {
-    display:inline;
-    flex-direction:row;
-}
-
+/* sizing and image of box 1 */
 .small-box1 {
     background-image:url("../Assets/Images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg");
     height: 400px;
@@ -163,17 +154,20 @@ ul li {
     order:2;
 }
 
+/* main text in box 1 */
 .small-box1 h3 {
     color:var(--mdcolor);
     text-align:center;
 }
 
+/* subtitle text in box 1 */
 #java {
     color:var(--mdcolor);
     align-items:center;
     text-align: center;
 }
 
+/* sizing and image of box 2 */
 .small-box2 {
     background-image:url("../Assets/Images/IMG_9136.jpeg");
     height:400px;
@@ -183,18 +177,21 @@ ul li {
     order:2;
 }
 
+/* main text in box 2 */
 .small-box2 h3 {
     color:var(--mdcolor);
     text-align:center;
     align-items:center;
-}
+} 
 
+/* subtitle text in box 2 */
 #react {
     color:var(--mdcolor);
     align-items:center;
     text-align: center;
 }
 
+/* sizing and image of box 3 */
 .small-box3 {
     background-image:url("../Assets/Images/hassan-pasha-7SjEuEF06Zw-unsplash.jpg");
     height: 400px;
@@ -204,18 +201,20 @@ ul li {
     order:3;
 }
 
+/* main text in box 3 */
 .small-box3 h3 {
     color:var(--mdcolor);
     text-align:center;
     align-items:center;
 }
-
+/* subtitle text in box 3 */
 #Mern {
     color:var(--mdcolor);
     align-items:center;
     text-align: center;
 }
 
+/* sizing and image of box 4 */
 .small-box4 {
     background-image:url("../Assets/Images/mel-poole-eo5Hrzyb4D0-unsplash.jpg");
     height: 400px;
@@ -225,18 +224,21 @@ ul li {
     order:3;
 }
 
+/*main text in box 4*/
 .small-box4 h3 {
     color:var(--mdcolor);
     text-align:center;
     align-items:center;
 }
 
+/* subtitle text in box 4*/
 #node {
     color:var(--mdcolor);
     align-items:center;
     text-align: center;
 }
 
+/* puts contact information in a row*/
 .contact ul {
     display:flex;
     flex-direction: row-reverse;
@@ -244,11 +246,13 @@ ul li {
     list-style: none;
     font-size: 40px;
 }
+
+/* contact link text color */
 .contact a {
     color:var(--dark);
 }
 
-
+/* screen adjustment to 920 max */
 @media screen and (max-width:920px) {
     .header nav {
         justify-content: center;
@@ -267,14 +271,48 @@ ul li {
         flex-direction:row;
         display:inline;
     }
-}
-@media screen and (max-width:758px) {
-    .about{
-        max-width: fit-content;
+    h2 {
+        width:auto;
     }
+}
+
+/* screen adjustment to 758 max */
+@media screen and (max-width:758px) {
+    .header nav {
+        justify-content: center;
+        text-align:center;
+    }
+    .about {
+        justify-content:center;
+        text-align:center;
+    }
+    .contact {
+        justify-content:center;
+        text-align:center;
+    }
+    .large-work {
+        flex-wrap:wrap;
+        flex-direction:row;
+        display:inline;
 } 
+ 
+/* screen adjustment to 560 max */
 @media screen and (max-width:560px) {
-    .about{
-        max-width: fit-content;
+    .header nav {
+        justify-content: center;
+        text-align:center;
+    }
+    .about {
+        justify-content:center;
+        text-align:center;
+    }
+    .contact {
+        justify-content:center;
+        text-align:center;
+    }
+    .large-work {
+        flex-wrap:wrap;
+        flex-direction:row;
+        display:inline;
     }
 }
