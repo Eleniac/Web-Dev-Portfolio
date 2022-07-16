@@ -115,21 +115,19 @@ ul li {
 
 .work {
     display:flex;
-    flex-direction: row;
 }
 
 .large-work {
     background-image:url("../Assets/Images/daniel-pascoa-pCvCDub8ieI-unsplash.jpg");
     background-size:cover;
     background-position:center;
-    flex-direction: row;
     padding: 10px;
     width: 700px;
     height: 500px;
     margin: 0;
-    flex-wrap: wrap;
     border-radius: 25px;
-    align-items: center;
+    display:table-cell;
+    vertical-align: middle;
     justify-content:center;
 }
 
@@ -147,15 +145,14 @@ ul li {
 
 .small-box1 {
     background-image:url("../Assets/Images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg");
-    height: 300px;
-    width:200px;
+    height: 400px;
+    width:400px;
     background-size:cover;
     background-position:center;
-    flex-direction: row;
     padding: 10px;
     margin: 0;
-    flex-wrap: wrap;
     border-radius: 25px;
+    display:table-cell;
 }
 
 .small-box1 h3 {
@@ -172,14 +169,12 @@ ul li {
 
 .small-box2 {
     background-image:url("../Assets/Images/IMG_9136.jpeg");
-    height: 300px;
-    width:200px;
+    height:400px;
+    width:400px;
     background-size:cover;
     background-position:center;
-    flex-direction: row;
     padding: 10px;
     margin: 0;
-    flex-wrap: wrap;
     border-radius: 25px;
 }
 
@@ -201,10 +196,8 @@ ul li {
     width:400px;
     background-size:cover;
     background-position:center;
-    flex-direction: row;
     padding: 10px;
     margin: 0;
-    flex-wrap: wrap;
     border-radius: 25px;
 }
 
@@ -226,7 +219,6 @@ ul li {
     width:400px;
     background-size:cover;
     background-position:inherit;
-    flex-direction: row;
     padding: 10px;
     margin: 0;
     flex-wrap: wrap;
@@ -250,8 +242,6 @@ ul li {
 
 .contact {
     display:flex;
-    flex-direction: row;
-    justify-content:space-around;
 }
 
 @media screen and (max-width:920px) {
