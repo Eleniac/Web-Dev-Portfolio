@@ -17,17 +17,23 @@ https://github.com/Eleniac/Web-Dev-Portfolio.git
 ``
 
 ## Usage
-This project was created using HTML and CSS. The primary formatting was done using flex box and the box model. I created parent containers for all the sections, hero-banner, header, about, work and contact. In each of these sections there were several classes and id's used to specify the exact styling for the page. Display flex was placed on many of the section to allow for further styling. 
-I ran into trouble trying to align the smaller boxes side by side. I tried flex-direction, justify-content, order, flex-wrap and margin adjustments without being able to identify why the boxes remained in a column. There are no column statements in the CSS. 
+This project was created using HTML and CSS. The primary formatting was done using flex box and the box model. I created parent containers for all the sections, hero-banner, header, about, work and contact. In each of these sections there were several classes and id's used to specify the exact styling for the page. Display flex was placed on many of the sections to allow for further styling. 
+
+I ran into trouble trying to align the smaller boxes side by side. I tried flex-direction, justify-content, order, flex-wrap and margin adjustments without being able to identify why the boxes remained in a column. There are no column statements in the CSS.
 
 Screenshots:
 
+![header:hero](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/Header%3Ahero.png)
 
+![about](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/about.png)
 
+![large work](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/large%20work.png)
 
+![column 1](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/column%201.png)
 
+![column 2](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/column%202.png)
 
-
+![contact](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/contact.png)
 
 
 ## Credits
