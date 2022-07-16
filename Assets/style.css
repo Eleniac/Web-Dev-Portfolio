@@ -9,6 +9,7 @@
     --dark: black;
     --light:rgb(121, 121, 188); 
     --antique:antiquewhite;
+    --green:rgb(5, 41,5);
 }
 
 .header {
@@ -16,7 +17,7 @@
     margin: 0px;
     font-family:var(--dark);
     line-height: .5;
-    background-color:var(--antique);
+    background-color:var(--green);
 }
 
 .header h1 {
@@ -32,26 +33,34 @@
     display:flex;
 }
 
-.hero-image {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))url(/Assets/sumner-mahaffey-7Y0NshQLohk-unsplash.jpg);
+.hero-banner {
+    background-image:url("../Assets/Images/tim-toomey-S1R_H_ybMYg-unsplash.jpg");
     background-size:cover;
     background-position:center;
     display:flex;
     justify-content: flex-end;
     padding:2% 6%;
     align-items: flex-end;
+}
 
+.hero-banner h2 {
+    color:var(--antique);
 }
 
 nav {
     text-align: right;
     flex-wrap:wrap;
     justify-content: space-between;
-    background-color: var(--antique);
+    background-color:var(--green);
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 40px;
+    color:var(--antique);
     margin: 0;
     padding: 0;
+}
+
+a {
+    color:var(--antique);
 }
 
 body {
@@ -59,7 +68,7 @@ body {
     padding: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--dark);
-    background:var(--mdcolor);
+    background:rgb(200, 198, 198);
     line-height:2;
     justify-content: space-between;
 }
@@ -71,7 +80,12 @@ h1 {
 h2 {
     text-align:left;
     flex-direction: column;
+    width: 300px;
+    border: 1px,var(--dark);
+    padding: 50px;
+    margin: 20px;
 }
+
 h3 {
     text-align: center;
     flex-direction: column;
@@ -107,15 +121,13 @@ h3 {
 /*profile photo style*/
 img {
     flex-direction: row;
-    border: .5px solid var(--mdcolor);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
     width: 250px;
     height: 250px;
     margin: 0;
     flex-wrap: wrap;
     box-shadow: var(--dark) 5cm;
-    border-radius: 25px;
 }
 
 .large-work {
