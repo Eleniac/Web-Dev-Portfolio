@@ -145,13 +145,14 @@ body {
 /* sizing and image of box 1 */
 .small-box1 {
     background-image:url("../Assets/Images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg");
-    height: 400px;
+   /* height: 400px;
     width:400px;
     background-size:cover;
     border-radius: 25px;
     margin-top:600px;
     position:relative;
     order:2;
+    */
 }
 
 /* main text in box 1 */
@@ -236,6 +237,10 @@ body {
     color:var(--mdcolor);
     align-items:center;
     text-align: center;
+}
+
+.w-examples{
+    display:flex;
 }
 
 /* puts contact information in a row*/
