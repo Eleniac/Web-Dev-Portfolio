@@ -39,12 +39,15 @@
     background-position:center;
     display:flex;
     justify-content: flex-end;
-    padding:2% 6%;
+    padding:2% 3%;
     align-items: flex-end;
 }
 
 .hero-banner h2 {
     color:var(--antique);
+    width:400px;
+    height:150px;
+    background-color: black;
 }
 
 nav {
@@ -140,11 +143,12 @@ img {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
   height: 100%;
   list-style: none;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
-
 
 @media screen and (max-width:920px) {
     nav body img {
