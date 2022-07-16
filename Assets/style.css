@@ -32,14 +32,15 @@
     display:flex;
 }
 
-.hero {
-    background-image:url("https://unsplash.com/photos/tg_bV3BkNSA")100%;
+.hero-image {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))url(/Assets/sumner-mahaffey-7Y0NshQLohk-unsplash.jpg);
     background-size:cover;
     background-position:center;
     display:flex;
     justify-content: flex-end;
     padding:2% 6%;
     align-items: flex-end;
+
 }
 
 nav {
