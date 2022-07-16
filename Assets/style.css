@@ -124,11 +124,8 @@ ul li {
     padding: 10px;
     width: 700px;
     height: 500px;
-    margin: 0;
     border-radius: 25px;
-    display:table-cell;
-    vertical-align: middle;
-    justify-content:center;
+    position:relative;
 }
 
 .large-work h3 {
@@ -148,11 +145,7 @@ ul li {
     height: 400px;
     width:400px;
     background-size:cover;
-    background-position:center;
-    padding: 10px;
-    margin: 0;
     border-radius: 25px;
-    display:table-cell;
 }
 
 .small-box1 h3 {
@@ -172,9 +165,6 @@ ul li {
     height:400px;
     width:400px;
     background-size:cover;
-    background-position:center;
-    padding: 10px;
-    margin: 0;
     border-radius: 25px;
 }
 
@@ -195,9 +185,6 @@ ul li {
     height: 400px;
     width:400px;
     background-size:cover;
-    background-position:center;
-    padding: 10px;
-    margin: 0;
     border-radius: 25px;
 }
 
@@ -218,10 +205,6 @@ ul li {
     height: 400px;
     width:400px;
     background-size:cover;
-    background-position:inherit;
-    padding: 10px;
-    margin: 0;
-    flex-wrap: wrap;
     border-radius: 25px;
 }
 
@@ -237,11 +220,12 @@ ul li {
     text-align: center;
 }
 
-
-
-
-.contact {
+.contact ul a {
     display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 40px;
 }
 
 @media screen and (max-width:920px) {
