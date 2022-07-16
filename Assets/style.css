@@ -3,7 +3,7 @@
     cursor:grab;
 }
 
-/* page colors*/
+/* page colors */
 :root {
     --mdcolor: grey;
     --dark: black;
@@ -11,6 +11,7 @@
     --green:rgb(5, 41,5);
 }
 
+/* header banner */
 .header {
     padding: 0px 0px 30px 0px;
     margin: 0px;
@@ -19,12 +20,15 @@
     background-color:var(--green);
 }
 
+/* header text-Len's Profile */
 .header h1 {
     display:flex;
     font-size: 50px;
     flex:row;
     color:var(--antique);
 }
+
+/* header links */
 .header section ul li {
     font-style: bold;
     font-size: 25px;
@@ -33,6 +37,7 @@
     display:flex;
 }
 
+/* waves hero image */
 .hero-banner {
     background-image:url("../Assets/Images/tim-toomey-S1R_H_ybMYg-unsplash.jpg");
     height: 600px;
@@ -45,6 +50,7 @@
     align-items: flex-end;
 }
 
+/* box in hero banner */
 .hero-banner h2 {
     color:var(--antique);
     width:300px;
@@ -52,10 +58,20 @@
     background-color: black;
     margin: 20px;
     padding: 20px;
-    
+    text-align: center;
 }
 
+/* text in subtitle */
+h2 {
+    text-align:left;
+    flex-direction: column;
+    width: 300px;
+    border: 1px,var(--dark);
+    padding: 50px;
+    margin: 20px;
+}
 
+/* links at the top of the page */
 nav {
     text-align: right;
     flex-wrap:wrap;
@@ -68,10 +84,12 @@ nav {
     padding: 0;
 }
 
+/*link colors */
 a {
     color:var(--antique);
 }
 
+/* page standards */
 body {
     margin: 0;
     padding: 0;
@@ -80,24 +98,6 @@ body {
     background:rgb(200, 198, 198);
     line-height:2;
     justify-content: space-between;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align:left;
-    flex-direction: column;
-    width: 300px;
-    border: 1px,var(--dark);
-    padding: 50px;
-    margin: 20px;
-}
-
-h3 {
-    text-align: center;
-    flex-direction: column;
 }
 
 ul li {
@@ -112,21 +112,6 @@ ul li {
     justify-content:space-around;
 }
 
-#bio-text {
-  float:right
-}
-
-.work {
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;
-}
-
-h3 {
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;
-}
 /*profile photo style*/
 #pic {
     flex-direction: row;
@@ -138,6 +123,26 @@ h3 {
     flex-wrap: wrap;
     box-shadow: var(--dark) 5cm;
 }
+
+.work {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+h3 {
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h3 {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+/*large image photo style*/
 #sky {
     flex-direction: row;
     border-radius: 5px;
@@ -149,6 +154,7 @@ h3 {
     box-shadow: var(--dark) 5cm;
 }
 
+/*small box syle*/
 #cup {
     flex-direction: column;
     border-radius: 5px;
@@ -160,6 +166,7 @@ h3 {
     box-shadow: var(--dark) 5cm;
 }
 
+/*small box syle*/
 #math {
     flex-direction: column;
     border-radius: 5px;
@@ -170,6 +177,8 @@ h3 {
     flex-wrap: wrap;
     box-shadow: var(--dark) 5cm;
 }
+
+/*small box syle*/
 #puzzle {
     flex-direction: row;
     border-radius: 5px;
@@ -181,6 +190,7 @@ h3 {
     box-shadow: var(--dark) 5cm;
 }
 
+/*small box syle*/
 #games {
     flex-direction: row;
     border-radius: 5px;
@@ -190,12 +200,6 @@ h3 {
     margin: 0;
     flex-wrap: wrap;
     box-shadow: var(--dark) 5cm;
-}
-
-.large-work {
-    width:200%;
-    height: 600%;
-    justify-content: flex-start;
 }
 
 .contact ul li {
