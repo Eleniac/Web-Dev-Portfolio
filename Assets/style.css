@@ -106,14 +106,10 @@ ul li {
     position: left;
 }
 
-.bio {
+.about  {
     display:flex;
     flex-direction: row;
     justify-content:space-around;
-}
-
-#biotext {
-    float:right;
 }
 
 /*profile photo style*/
@@ -128,7 +124,7 @@ ul li {
     box-shadow: var(--dark) 5cm;
 }
 
-.work {
+.work  {
     display:flex;
     flex-direction: row;
     justify-content:space-around;
@@ -206,10 +202,14 @@ h3 {
     box-shadow: var(--dark) 5cm;
 }
 
+.contact {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
 .contact ul li {
-  display:flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   height: 100%;
   list-style: none;
   flex-direction: row;
