@@ -5,6 +5,10 @@ Web-Dev-Portfolio. A portfolio potential employers may view to learn more about 
 This project was created to develop a user friendly way to present an online web developer's profile. This portfolio was created to allow easy navigation to this writer's work. You are able to view the developer's name, links to different sections, their work, and how to contact them. The links connect to cooresponding places on the page to ease navigation. The page is viewable on different screen sizes to increase accessibility.  
 
 ## Installation
+To be able to code this project you will need a code editor such as Visual Studio Code. You will need a browser such as Google Chrome or Safari to open the webpage once it has been completed and to make sure you are making the correct adjustments as you go on. I used Unsplash to get free images (www.unsplash.com).
+
+The following programs are recommended: OX terminal, Visual Studio Code, and a 1.6 GHz or faster processor to run Visual Studio Code.
+
 `` 
 
 https://github.com/Eleniac/Web-Dev-Portfolio.git
@@ -13,6 +17,9 @@ https://github.com/Eleniac/Web-Dev-Portfolio.git
 ``
 
 ## Usage
+This project was created using HTML and CSS. The primary formatting was done using flex box and the box model. I created parent containers for all the sections, hero-banner, header, about, work and contact. In each of these sections there were several classes and id's used to specify the exact styling for the page. Display flex was placed on many of the section to allow for further styling. 
+
+Screenshots:
 
 
 
@@ -22,14 +29,11 @@ https://github.com/Eleniac/Web-Dev-Portfolio.git
 [Unsplash] (https://https://unsplash.com/)
 
 Photos from Unsplash:
-Nathalia Segato
+Mel Poole
+NordWood Themes
 Hassan Pasha
-Pawel Czerwinski
-Jr Korpa
-Markus Spiske
-Annie Spratt
-Mel Pol
-
+Tim Toomey
+Daniel Pascoa
 
 
 ## License

@@ -115,6 +115,7 @@ ul li {
 
 .work {
     display:flex;
+    flex-direction: row;
 }
 
 .large-work {
@@ -140,6 +141,15 @@ ul li {
     text-align: center;
 }
 
+.section {
+    display:flex;
+    flex-direction: row;
+}
+#examples {
+    display:inline;
+    flex-direction:row;
+}
+
 .small-box1 {
     background-image:url("../Assets/Images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg");
     height: 400px;
@@ -147,13 +157,13 @@ ul li {
     background-size:cover;
     border-radius: 25px;
     margin-top:600px;
+    position:relative;
     order:2;
 }
 
 .small-box1 h3 {
     color:var(--mdcolor);
     text-align:center;
-    align-items:center;
 }
 
 #java {
@@ -189,6 +199,7 @@ ul li {
     width:400px;
     background-size:cover;
     border-radius: 25px;
+    position:relative;
     order:3;
 }
 
