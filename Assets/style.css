@@ -112,13 +112,17 @@ ul li {
     justify-content:space-around;
 }
 
+#biotext {
+    float:right;
+}
+
 /*profile photo style*/
 #pic {
     flex-direction: row;
     border-radius: 5px;
     padding: 10px;
     width: 250px;
-    height: 250px;
+    height: 350px;
     margin: 0;
     flex-wrap: wrap;
     box-shadow: var(--dark) 5cm;
