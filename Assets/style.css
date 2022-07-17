@@ -102,8 +102,8 @@ body {
     flex-direction: row;
     border-radius: 25px;
     padding: 10px;
-    width: 250px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     margin: 0;
     flex-wrap: wrap;
     box-shadow: var(--dark) 5cm;
@@ -142,14 +142,19 @@ body {
     text-align: center;
 }
 
+.w-examples{
+    display:flex;
+    justify-content: center;
+}
+
 /* sizing and image of box 1 */
 .small-box1 {
     background-image:url("../Assets/Images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg");
-   /* height: 400px;
+    height: 400px;
     width:400px;
     background-size:cover;
     border-radius: 25px;
-    margin-top:600px;
+    /*margin-top:600px;
     position:relative;
     order:2;
     */
@@ -175,7 +180,7 @@ body {
     width:400px;
     background-size:cover;
     border-radius: 25px;
-    order:2;
+    /* order:2;*/
 }
 
 /* main text in box 2 */
@@ -199,7 +204,7 @@ body {
     width:400px;
     background-size:cover;
     border-radius: 25px;
-    order:3;
+    /* order:3; */
 }
 
 /* main text in box 3 */
@@ -222,7 +227,7 @@ body {
     width:400px;
     background-size:cover;
     border-radius: 25px;
-    order:3;
+    /* order:3; */
 }
 
 /*main text in box 4*/
@@ -237,10 +242,6 @@ body {
     color:var(--mdcolor);
     align-items:center;
     text-align: center;
-}
-
-.w-examples{
-    display:flex;
 }
 
 /* puts contact information in a row*/
