@@ -112,7 +112,7 @@ body {
 /* sets images slightly right and keeps header to the side*/
 .work {
     display:flex;
-    flex-direction: row;
+    justify-content:space-between;
 }
 
 /* sizing and image of large image */
@@ -120,13 +120,12 @@ body {
     background-image:url("../Assets/Images/daniel-pascoa-pCvCDub8ieI-unsplash.jpg");
     background-size:cover;
     background-position:center;
-    padding: 10px;
+    /*padding: 10px;*/
     width: 900px;
     height: 550px;
     border-radius: 25px;
-    /* position:relative; */
-    order:1;
-    flex-direction:row;
+    /* position:relative; 
+    flex-direction:row; */
 }
 
 /* main text in large image */
@@ -150,14 +149,14 @@ body {
 /* sizing and image of box 1 */
 .small-box1 {
     background-image:url("../Assets/Images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg");
-    height: 400px;
-    width:400px;
+    height:300px;
+    width:300px;
     background-size:cover;
     border-radius: 25px;
     /*margin-top:600px;
     position:relative;
-    order:2;
-    */
+    order:2;*/
+
 }
 
 /* main text in box 1 */
@@ -176,8 +175,8 @@ body {
 /* sizing and image of box 2 */
 .small-box2 {
     background-image:url("../Assets/Images/IMG_9136.jpeg");
-    height:400px;
-    width:400px;
+    height:300px;
+    width:300px;
     background-size:cover;
     border-radius: 25px;
     /* order:2;*/
@@ -200,8 +199,8 @@ body {
 /* sizing and image of box 3 */
 .small-box3 {
     background-image:url("../Assets/Images/hassan-pasha-7SjEuEF06Zw-unsplash.jpg");
-    height: 400px;
-    width:400px;
+    height: 300px;
+    width:300px;
     background-size:cover;
     border-radius: 25px;
     /* order:3; */
@@ -223,8 +222,8 @@ body {
 /* sizing and image of box 4 */
 .small-box4 {
     background-image:url("../Assets/Images/mel-poole-eo5Hrzyb4D0-unsplash.jpg");
-    height: 400px;
-    width:400px;
+    height: 300px;
+    width:300px;
     background-size:cover;
     border-radius: 25px;
     /* order:3; */
