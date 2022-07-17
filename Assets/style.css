@@ -50,18 +50,6 @@
     text-align: center;
 }
 
-/* text in subtitle 
-h2 {
-    text-align:left;
-    flex-direction: row;
-    width: 300px;
-    border: 1px,var(--dark);
-    padding: 50px;
-    margin: 20px;
-    border-radius: 25px;
-    font-size:30px;
-}
-*/
 
 /* links at the top of the page */
 nav {
@@ -83,11 +71,11 @@ a {
 
 /* page standards */
 body {
-    margin: auto;
-    padding: auto;
+   /* margin: auto;
+    padding: auto; */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background:rgb(200, 198, 198);
-    line-height:2;
+    line-height:1.5;
 }
 
 /* moves text to the right of profile picture*/
@@ -96,7 +84,7 @@ body {
     flex-direction: row;
     justify-content:space-around;
     color:var(--dark);
-    font-size: 30px;
+    font-size: 35px;
 }
 
 /*profile photo style*/
@@ -114,29 +102,30 @@ body {
 /* sets images slightly right and keeps header to the side*/
 .work {
     display:flex;
-    justify-content:center;
     flex-direction: column;
-    align-items: center;
+    justify-content:center;
+    color:var(--dark);
+    font-size: 30px;
 }
+
+/*work heading and bootcamp projects they should not be moving at the same time */
 .work h2 {
-    align-items:flex-start
-}
+    align-items:flex-start;
+} 
 
 /* sizing and image of large image */
 .large-work {
     background-image:url("../Assets/Images/daniel-pascoa-pCvCDub8ieI-unsplash.jpg");
     background-size:cover;
     background-position:center;
-    /*padding: 10px;*/
+    align-items:center;
     width: 900px;
     height: 550px;
     border-radius: 25px;
-    /* position:relative; 
-    flex-direction:row; */
 }
 
 /* main text in large image */
-.large-work h3 {
+.large h3 {
     color:var(--antique);
     text-align:center;
 }
@@ -148,6 +137,7 @@ body {
     text-align: center;
 }
 
+/*container for all the small boxes */
 .w-examples {
     display:flex;
     justify-content: center;
@@ -250,6 +240,11 @@ body {
     text-align: center;
 }
 
+/*contact section */
+.contact {
+    font-size: 40px;
+}
+
 /* puts contact information in a row*/
 .contact ul {
     display:flex;
@@ -266,13 +261,14 @@ body {
 
 /* screen adjustment to 920 max */
 @media screen and (max-width:920px) {
-    .header nav {
-        justify-content: center;
-        text-align:center;
+    .header {
+     justify-content: space-around;
     }
     .about {
+        background-color:rgb(77, 145, 145);
         justify-content:center;
         text-align:center;
+        flex-direction: column;
     }
     .contact {
         justify-content:center;
@@ -280,8 +276,11 @@ body {
     }
     .large-work {
         flex-wrap:wrap;
-        flex-direction:row;
+        flex-direction:column;
         display:inline;
+    }
+    .w-examples {
+        flex-direction: column;
     }
     h2 {
         width:auto;
@@ -290,13 +289,17 @@ body {
 
 /* screen adjustment to 758 max */
 @media screen and (max-width:758px) {
+    .header {
+        justify-content: space-around;
+       }
     .w-examples {
-      background-color: white;
-      display:block;
+      justify-content: space-around;
+      flex-direction: column;
     }
     .about {
-       display:block;
-       background-color:azure
+       display:flex;
+       background-color:azure;
+       flex-direction: column;
     }
     .contact {
         justify-content:center;
@@ -305,16 +308,20 @@ body {
     .large-work {
         display:block;
 } 
- 
+    #pic {
+        flex-direction: column;
+    }
+
 /* screen adjustment to 560 max */
 @media screen and (max-width:560px) {
-    .header nav {
-        justify-content: center;
+    .header {
+        justify-content: space-around;
         text-align:center;
     }
     .about {
         justify-content:center;
         text-align:center;
+        flex-direction: column;
     }
     .contact {
         justify-content:center;
@@ -325,5 +332,11 @@ body {
         flex-direction:row;
         display:inline;
     }
+}
+    .w-examples {
+    flex-direction: column;
+}  
+#pic {
+    flex-direction: column;
 }
 }
