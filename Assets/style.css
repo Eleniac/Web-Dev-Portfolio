@@ -50,7 +50,6 @@
     text-align: center;
 }
 
-
 /* links at the top of the page */
 nav {
     text-align: right;
@@ -95,7 +94,6 @@ body {
     width: 400px;
     height: 400px;
     margin: 0;
-   /* flex-wrap: wrap; */
     box-shadow: var(--dark) 5cm;
 }
 
@@ -150,10 +148,6 @@ body {
     width:500px;
     background-size:cover;
     border-radius: 25px;
-    /*margin-top:600px;
-    position:relative;
-    order:2;*/
-
 }
 
 /* main text in box 1 */
@@ -176,7 +170,6 @@ body {
     width:500px;
     background-size:cover;
     border-radius: 25px;
-    /* order:2;*/
 }
 
 /* main text in box 2 */
@@ -200,7 +193,6 @@ body {
     width:500px;
     background-size:cover;
     border-radius: 25px;
-    /* order:3; */
 }
 
 /* main text in box 3 */
@@ -223,7 +215,6 @@ body {
     width:500px;
     background-size:cover;
     border-radius: 25px;
-    /* order:3; */
 }
 
 /*main text in box 4*/

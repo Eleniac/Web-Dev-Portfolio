@@ -17,23 +17,21 @@ https://github.com/Eleniac/Web-Dev-Portfolio.git
 ``
 
 ## Usage
-This project was created using HTML and CSS. The primary formatting was done using flex box and the box model. I created parent containers for all the sections, hero-banner, header, about, work and contact. In each of these sections there were several classes and id's used to specify the exact styling for the page. Display flex was placed on many of the sections to allow for further styling. 
+This project was created using HTML and CSS. The primary formatting was done using flex box and the box model. I created parent containers for all the sections, hero-banner, header, about, work and contact. In each of these sections there were several classes and id's used to specify the exact styling for the sections. Display flex was placed on many of the sections to allow for further styling. 
 
-I ran into trouble trying to align the smaller boxes side by side. I tried flex-direction, justify-content, order, flex-wrap and margin adjustments without being able to identify why the boxes remained in a column. There are no column statements in the CSS.
+I am still working on structure bugs in this code. The HTML document needs to be reformatted to improve the CSS file. Specifically, better oragnaization of the parent containers. I believe the media queries will also be improved once this formatting bug is fixed. 
 
 Screenshots:
 
-![header:hero](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/Header%3Ahero.png)
+![header](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/Header.png)
 
-![about](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/about.png)
+![hero-banner](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/Screen%20Shot%20Hero%20Banner.png)
 
-![large work](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/large%20work.png)
+![about](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/About%20Me%20Section.png)
 
-![column 1](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/column%201.png)
+![work section](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/Work%20Section.png)
 
-![column 2](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/column%202.png)
-
-![contact](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/contact.png)
+![contact](https://raw.githubusercontent.com/Eleniac/Web-Dev-Portfolio/main/Assets/Images/Contact%20Section.png)
 
 
 ## Credits
