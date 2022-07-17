@@ -124,7 +124,7 @@ body {
     width: 900px;
     height: 550px;
     border-radius: 25px;
-    position:relative;
+    /* position:relative; */
     order:1;
     flex-direction:row;
 }
@@ -142,7 +142,7 @@ body {
     text-align: center;
 }
 
-.w-examples{
+.w-examples {
     display:flex;
     justify-content: center;
 }
@@ -284,22 +284,20 @@ body {
 
 /* screen adjustment to 758 max */
 @media screen and (max-width:758px) {
-    .header nav {
-        justify-content: center;
-        text-align:center;
+    .w-examples {
+      background-color: white;
+      display:block;
     }
     .about {
-        justify-content:center;
-        text-align:center;
+       display:block;
+       background-color:azure
     }
     .contact {
         justify-content:center;
         text-align:center;
     }
     .large-work {
-        flex-wrap:wrap;
-        flex-direction:row;
-        display:inline;
+        display:block;
 } 
  
 /* screen adjustment to 560 max */
